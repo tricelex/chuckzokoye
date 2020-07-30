@@ -7,7 +7,7 @@ describe('About page', () => {
 
   it('loads about page', () => {
     cy.getTestElement('headline').then((el) => {
-      expect(el).to.have.text(`Hey, I'm Jacob Herper`);
+      expect(el).to.have.text(`Hey, I'm Chuckz Okoye`);
     });
   });
 
