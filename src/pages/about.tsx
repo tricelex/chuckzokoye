@@ -27,29 +27,26 @@ const About = () => {
       <SEO title="About" />
       <Container>
         <Section>
-          <Name data-testid="headline">Hey, I'm Jacob Herper</Name>
-          <JobTitle>A senior Front-End Engineer from London, UK</JobTitle>
+          <Name data-testid="headline">Hey, I'm Chuckz Okoye</Name>
+          <JobTitle>A Software Developer from Lagos, NG</JobTitle>
           <Text>
-            As a passionate front-end developer, I create amazing websites and
-            web apps to make the internet a better place. I am an advocate for
-            web performance and accessibility as well as a JAMstack enthusiast
-            with experience in serverless technologies.
+            I'm a passionate software developer, I create websites and web apps
+            using scalable tech. I am more of a back-end dev, still brushing up
+            my designs skills. I love to keep updated with new and emerging
+            technology, currently looking at the Blockchain and Cryptocurrency
+            ecosystem.
           </Text>
           <Text>
-            I am {age('1990-11-06')} years old and have been a web developer for
-            as long as I can think. The technologies I work with are JavaScript,
-            HTML and CSS with a focus on the frameworks React.js, Gatsby,
-            Next.js, Node and Express. I use code not only to do my day-to-day
-            job, but also to solve everyday problems I come across.
+            I am {age('1995-09-29')} years old and have been a software
+            developer for about 5 years now. The technologies I work with are
+            JavaScript, Python and PHP with a focus on the frameworks React.js,
+            Gatsby, Django, Node and Laravel.
           </Text>
           <Text>
-            When I am not writing code I love to spend time with my wife and{' '}
-            {age('2018-05-26')} year old daughter at home in London or
-            travelling around the world. We are quite a multi-cultural family
-            with me having grown up in Germany 🇩🇪 and my wife being from Mexico
-            🇲🇽, which is why we raise our daughter trilingual. I myself speak
-            five languages (some better than others). Furthermore I enjoy
-            cooking fresh food when I come home after a long day at the office.
+            When not writing code you can find me playing games or hanging out,
+            looking for the next best thing. I love to read fiction and
+            non-fiction books, watch sci-fi movies and play games on my
+            playstation console.
           </Text>
         </Section>
         <Section>
@@ -100,11 +97,8 @@ const About = () => {
             <aside>
               <h2>Languages</h2>
               <ul>
-                <li>🇬🇧 English (bilingual)</li>
-                <li>🇩🇪 German (bilingual)</li>
-                <li>🇪🇸 Spanish (intermediate)</li>
-                <li>🇮🇹 Italian (basic)</li>
-                <li>🇷🇺 Russian (basic)</li>
+                <li> English (bilingual)</li>
+                <li> Igbo (bilingual)</li>
               </ul>
             </aside>
           </WithSidebar>
@@ -140,8 +134,8 @@ const About = () => {
               clicking the button below.
             </Text>
             <Button
-              href="/docs/cv-jacob_herper-2020.pdf"
-              download="jacob_herper-cv.pdf"
+            // href="/docs/cv-jacob_herper-2020.pdf"
+            // download="jacob_herper-cv.pdf"
             >
               Download CV
             </Button>

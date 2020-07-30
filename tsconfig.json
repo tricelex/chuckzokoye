@@ -7,6 +7,7 @@
     "jsx": "react",
     "sourceMap": true,
     "strict": true,
+    "outDir": "typings",
     "noImplicitAny": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,

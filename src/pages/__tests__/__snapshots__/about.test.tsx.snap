@@ -236,32 +236,29 @@ exports[`renders correctly 1`] = `
       class="c2"
       data-testid="headline"
     >
-      Hey, I'm Jacob Herper
+      Hey, I'm Chuckz Okoye
     </h1>
     <h2
       class="c3"
     >
-      A senior Front-End Engineer from London, UK
+      A Software Developer from Lagos, NG
     </h2>
     <p
       class="c4"
     >
-      As a passionate front-end developer, I create amazing websites and web apps to make the internet a better place. I am an advocate for web performance and accessibility as well as a JAMstack enthusiast with experience in serverless technologies.
+      I'm a passionate software developer, I create websites and web apps using scalable tech. I am more of a back-end dev, still brushing up my designs skills. I love to keep updated with new and emerging technology, currently looking at the Blockchain and Cryptocurrency ecosystem.
     </p>
     <p
       class="c4"
     >
       I am 
-      29
-       years old and have been a web developer for as long as I can think. The technologies I work with are JavaScript, HTML and CSS with a focus on the frameworks React.js, Gatsby, Next.js, Node and Express. I use code not only to do my day-to-day job, but also to solve everyday problems I come across.
+      24
+       years old and have been a software developer for about 5 years now. The technologies I work with are JavaScript, Python and PHP with a focus on the frameworks React.js, Gatsby, Django, Node and Laravel.
     </p>
     <p
       class="c4"
     >
-      When I am not writing code I love to spend time with my wife and
-       
-      2
-       year old daughter at home in London or travelling around the world. We are quite a multi-cultural family with me having grown up in Germany 🇩🇪 and my wife being from Mexico 🇲🇽, which is why we raise our daughter trilingual. I myself speak five languages (some better than others). Furthermore I enjoy cooking fresh food when I come home after a long day at the office.
+      When not writing code you can find me playing games or hanging out, looking for the next best thing. I love to read fiction and non-fiction books, watch sci-fi movies and play games on my playstation console.
     </p>
   </section>
   <section
@@ -368,6 +365,11 @@ exports[`renders correctly 1`] = `
           PHP
         </span>
         <span
+          class="c9 --technologies"
+        >
+          Python
+        </span>
+        <span
           class="c9 --frameworks"
         >
           React
@@ -375,7 +377,7 @@ exports[`renders correctly 1`] = `
         <span
           class="c9 --frameworks"
         >
-          Vue.js
+          Angular2
         </span>
         <span
           class="c9 --frameworks"
@@ -385,12 +387,17 @@ exports[`renders correctly 1`] = `
         <span
           class="c9 --frameworks"
         >
-          Next.js
+          Laravel
         </span>
         <span
           class="c9 --frameworks"
         >
-          Svelte
+          Django
+        </span>
+        <span
+          class="c9 --frameworks"
+        >
+          Opencart
         </span>
         <span
           class="c9 --databases"
@@ -405,7 +412,7 @@ exports[`renders correctly 1`] = `
         <span
           class="c9 --databases"
         >
-          Firebase
+          PostGreSQL
         </span>
         <span
           class="c9 --cms"
@@ -415,17 +422,7 @@ exports[`renders correctly 1`] = `
         <span
           class="c9 --cms"
         >
-          Drupal
-        </span>
-        <span
-          class="c9 --cms"
-        >
           Contentful
-        </span>
-        <span
-          class="c9 --cms"
-        >
-          Sanity.io
         </span>
         <span
           class="c9 --various"
@@ -435,42 +432,17 @@ exports[`renders correctly 1`] = `
         <span
           class="c9 --various"
         >
-          Scrum
+          Slack
         </span>
         <span
           class="c9 --various"
         >
-          Jira
-        </span>
-        <span
-          class="c9 --design"
-        >
-          Adobe Illustrator
-        </span>
-        <span
-          class="c9 --design"
-        >
-          Adobe InDesign
+          Agile
         </span>
         <span
           class="c9 --design"
         >
           Adobe Photoshop
-        </span>
-        <span
-          class="c9 --design"
-        >
-          Sketch
-        </span>
-        <span
-          class="c9 --design"
-        >
-          Zeplin
-        </span>
-        <span
-          class="c9 --design"
-        >
-          Figma
         </span>
         <h2>
           Soft skills
@@ -517,19 +489,10 @@ exports[`renders correctly 1`] = `
         </h2>
         <ul>
           <li>
-            🇬🇧 English (bilingual)
+             English (bilingual)
           </li>
           <li>
-            🇩🇪 German (bilingual)
-          </li>
-          <li>
-            🇪🇸 Spanish (intermediate)
-          </li>
-          <li>
-            🇮🇹 Italian (basic)
-          </li>
-          <li>
-            🇷🇺 Russian (basic)
+             Igbo (bilingual)
           </li>
         </ul>
       </aside>
@@ -549,78 +512,84 @@ exports[`renders correctly 1`] = `
     >
       <article
         class="c11"
-        data-testid="jobDennisPublishing"
+        data-testid="jobMiraTechnologies"
       >
         <h1>
-          Senior Front-End Engineer
+          Software Developer
         </h1>
         <h2>
           <strong>
             <a
-              href="https://www.dennis.co.uk/"
+              href="https://www.miratechnologiesng.com/"
               rel="noopener noreferrer"
               target="_blank"
             >
-              Dennis Publishing
+              Mira Technologies
             </a>
           </strong>
            
           (in 
-          London, UK
+          Lagos, NG
           )
         </h2>
         <ul
           class="c12"
         >
           <li>
-            Joined the team at Dennis to help develop their internal web platform, built on React and Express
+            Joined the team at Mira Technologies to help develop propriety applications for various clients
+          </li>
+          <li>
+            Developed Obejor ecommerce application using Opencart Framework
+          </li>
+          <li>
+            Wrote APIs for mobile integration on Obejor E-Commerce Application
+          </li>
+          <li>
+            Developed website for Wintessgarden hotels
           </li>
         </ul>
         <small>
-          10/2019
+          10/2018
            to 
-          present
+          1/2020
         </small>
       </article>
       <article
         class="c11"
-        data-testid="jobRaconteurMedia"
+        data-testid="jobKingsWayMedia"
       >
         <h1>
-          Front-End Developer
+          Freelance Software Developer
         </h1>
         <h2>
           <strong>
             <a
-              href="https://www.raconteur.net/"
+              href="/"
               rel="noopener noreferrer"
               target="_blank"
             >
-              Raconteur Media
+              KingsWay Media
             </a>
           </strong>
            
           (in 
-          London, UK
+          Lagos, NG
           )
         </h2>
         <ul
           class="c12"
         >
           <li>
-            Built and maintained internal websites using React (Next.js and Gatsby) with GraphQL and WordPress as a data source
+            Freelancing Outfit
           </li>
           <li>
-            Extended internal front-end component library in React with Styled Components
-          </li>
-          <li>
-            Built animated chart library for a large B2B client using ZingCharts, JavaScript and Gulp as a build tool
+            Graphics Designs
           </li>
         </ul>
         <small>
-          01/2019
+          1/2020
            to 
-          10/2019
+          Present
         </small>
       </article>
     </div>
@@ -643,8 +612,6 @@ exports[`renders correctly 1`] = `
       </p>
       <a
         class="c15"
-        download="jacob_herper-cv.pdf"
-        href="/docs/cv-jacob_herper-2020.pdf"
       >
         Download CV
       </a>

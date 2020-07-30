@@ -11,35 +11,33 @@ interface IProps {
 }
 
 const SeoHelmet = ({ description, lang, meta, title, keywords }: IProps) => {
-  let titleTemplate = `Jacob Herper | Front-End Engineer in London${
+  let titleTemplate = `Chuckz Okoye | Software Developer in Lagos${
     title !== 'Home' ? ' » %s' : ''
   }`;
 
   switch (title) {
     case 'Home':
-      titleTemplate = 'Jacob Herper - Senior Front-End Engineer in London';
+      titleTemplate = 'Chuckz Okoye - Software Developer in Lagos';
       break;
     case 'About':
-      titleTemplate =
-        'About Jacob Herper - A Senior Front-End Engineer in London';
+      titleTemplate = 'About Chuckz Okoye - A Software Developer in Lagos';
       break;
     case 'Contact':
-      titleTemplate =
-        'Reach out to Jacob Herper - Front-End Engineer in London';
+      titleTemplate = 'Contact Chuckz Okoye - Software Developer in Lagos';
       break;
     case 'Portfolio':
       titleTemplate =
-        'Portfolio - Work samples of Jacob Herper (Front-End Engineer)';
+        'Portfolio - Work samples of Chuckz Okoye (Software Developer)';
       break;
     default:
-      titleTemplate = `Jacob Herper | Front-End Engineer in London${
+      titleTemplate = `Chuckz Okoye | Software Developer in Lagos${
         title !== 'Home' ? ' » %s' : ''
       }`;
   }
 
   const metaDescription =
     description ||
-    'Front-End Software Engineer with a focus on JavaScript and React.js. I have more than 10 years experience working in software engineering.';
+    'Back-End Software Engineer with a focus on Python and JavaScript. Many years experience working in software engineering.';
   return (
     <Helmet
       htmlAttributes={{
@@ -54,7 +52,7 @@ const SeoHelmet = ({ description, lang, meta, title, keywords }: IProps) => {
         },
         {
           name: `author`,
-          content: `Jacob Herper`,
+          content: `Chuckz Okoye`,
         },
         {
           property: `og:title`,
@@ -74,7 +72,7 @@ const SeoHelmet = ({ description, lang, meta, title, keywords }: IProps) => {
         },
         {
           property: `og:url`,
-          content: `https://herper.io/`,
+          content: `https://chuckzokoye.com/`,
         },
         {
           name: `twitter:card`,
@@ -82,7 +80,7 @@ const SeoHelmet = ({ description, lang, meta, title, keywords }: IProps) => {
         },
         {
           name: `twitter:creator`,
-          content: 'Jacob Herper',
+          content: 'Chuckz Okoye',
         },
         {
           name: `twitter:image`,
@@ -109,11 +107,11 @@ const SeoHelmet = ({ description, lang, meta, title, keywords }: IProps) => {
       script={[
         {
           type: `application/ld+json`,
-          innerHTML: `{"@context":"http://schema.org","@type":"WebSite","name":"herper.io","alternateName":"Jacob Herper","url":"https://herper.io/","description":"Front-End Software Engineer with a focus on JavaScript and React.js. I have more than 10 years experience working in software engineering.","image":"https://res.cloudinary.com/jacobherper/image/upload/c_fill,g_north,h_1080,w_1920/v1587315694/herper-io.png"}`,
+          innerHTML: `{"@context":"http://schema.org","@type":"WebSite","name":"chuckzokoye.com","alternateName":"ChuckzOkoye","url":"https://chuckzokoye.com/","description":"Back-End Software Engineer with a focus on Python and JavaScript. Many years experience working in software engineering.","image":"https://res.cloudinary.com/tricelex/image/upload/c_scale,h_1080,w_1980/v1596106614/chuckzokoye/chuckzokoye_vf6uuk.png"}`,
         },
         {
           type: `application/ld+json`,
-          innerHTML: `{"@context":"http://schema.org","@type":"Person","image":"https://res.cloudinary.com/jacobherper/image/upload/v1587315576/jacob_herper.jpg","name":"Jacob Herper","alternateName":"JakeHerp","url":"https://herper.io/","jobTitle":["Front-End Engineer","Web Developer","Frontend Engineer", "Front-End Developer"],"hasOccupation":{"@type":"Occupation","name":"Senior Front-End Engineer","occupationLocation":{"@type":"City","name":"London"},"estimatedSalary":[{"@type":"MonetaryAmountDistribution","name":"base","currency":"GBP","unitText":"HOUR","percentile10":"74","percentile25":"80","median":"90","percentile75":"100","percentile90":"106"}],"description":"Develops web applications and websites using JavaScript, React and HTML5.","skills":"HTML5, CSS, JavaScript, React, PHP, Sass, Less, Node.js, Express.js, Vue.js, Gatsby, Next.js, JavaScript Frameworks, Git, Github, NPM, SEO, CMS, WordPress, Joomla, Drupal, E-Commerce","alternateName":["Frontend Developer","Full Stack Developer","Frontend Engineer"],"responsibilities":["App Development","Web Design","Website Development","JavaScript Development","WordPress Development","CMS Development","Frontend Development","Full Stack Development","Online Marketing","SEO Services","Web Developer","Website Maintenance"]},"sameAs":["http://linkedin.com/in/jacobherper","http://twitter.com/jakeherp","https://github.com/jakeherp","https://www.facebook.com/jakeherp","https://instagram.com/jakeherp"],"brand":[{"@type":"Brand","name":"Software Engineer","alternateName":"Front-End Engineer"},{"@type":"Brand","name":"JakeHerp","alternateName":"Jacob Herper"}],"memberOf":[{"@type":"Organization","url":"https://creativ.agency/","name":"Creativ Agency Ltd","alternateName":"Creativ Advertising Agency"},{"@type":"Organization","url":"https://www.dennis.co.uk/","name":"Dennis Digital","alternateName":"Dennis"}],"homeLocation":{"@type":"City","name":"London"},"owns":{"@type":"Organization","url":"https://creativ.agency/","name":"Creativ Agency Ltd","alternateName":"Creativ Advertising Agency","sameAs":"https://www.linkedin.com/company/creativ.agency"},"alumniOf":{"@type":"Organization","url":"https://www.thespecialistworks.com/","name":"The Specialist Works"},"nationality":{"@type":"Country","name":"Germany"},"birthDate":"1990-11-06","birthPlace":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Oelsnitz","postalCode":"08606","addressCountry":"Germany"}},"parent":[{"name":"Norbert Herper","jobTitle":"Chef","birthDate":"1967-08-22"},{"name":"Anne-Kristin Herper","birthDate":"1968-02-26"}],"spouse":{"name":"Cinthia Cid Paz","birthDate":"1990-09-19","nationality":{"@type":"Country","name":"Mexico"},"birthPlace":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Toluca","addressCountry":"Mexico"}}}}`,
+          innerHTML: `{"@context":"http://schema.org","@type":"Person","image":"https://res.cloudinary.com/tricelex/image/upload/c_scale,q_100,r_20,w_1698/v1588064752/chuckzokoye/chuckzokoye.jpg","name":"Chuckz Okoye","alternateName":"ChuckzOkoye","url":"https://chuckzokoye.com/","jobTitle":["Software Developer","Web Developer","Backend Engineer", "Back-End Developer"],"hasOccupation":{"@type":"Occupation","name":"Software Developer","occupationLocation":{"@type":"City","name":"Lagos"},"description":"Develops web applications and websites using JavaScript, Python and HTML5.","skills":"HTML5, CSS, JavaScript, React, PHP, Python, Django, Node.js, Gatsby, JavaScript Frameworks, Git, Github, NPM, SEO, CMS, WordPress, E-Commerce","alternateName":["Backend Developer","Full Stack Developer","Backend Engineer"],"responsibilities":["App Development","Web Design","Website Development","JavaScript Development","WordPress Development","CMS Development","Backend Development","Full Stack Development","Online Marketing","SEO Services","Web Developer","Website Maintenance"]},"sameAs":["http://linkedin.com/in/chuckzokoye","http://twitter.com/chuckzokoye","https://github.com/tricelex","https://web.facebook.com/KingChukz","https://instagram.com/chuckzokoye"],"brand":[{"@type":"Brand","name":"Software Engineer","alternateName":"Software Developer"},{"@type":"Brand","name":"Chuckz Okoye","alternateName":"ChuckzOkoye"}],"memberOf":[{"@type":"Organization","url":"https://chuckzokoye.com/","name":"Kingsway Agency Ltd","alternateName":"Kingsway Agency"},{"@type":"Organization","url":"https://chuckzokoye.com/","name":"Kingsway Media","alternateName":"kingsway"}],"homeLocation":{"@type":"City","name":"Lagos"},"owns":{"@type":"Organization","url":"https://chuckzokoye.com/","name":"Kingsway Agency Ltd","alternateName":"Kingsway Agency","sameAs":"https://www.linkedin.com/in/chuckzokoye"}}}`,
         },
       ]}
     />

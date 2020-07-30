@@ -37,14 +37,12 @@ const Portfolio = ({ data }: IProps) => {
           ))}
         </Grid>
         <Centered>
-          This is a small selection of the hundreds of projects I worked on.
+          This is a small selection of projects I've worked on.
           <br />
-          Want to see more?{' '}
           <Link to="/contact/">
             <strong>Get in touch</strong>
           </Link>{' '}
-          and let me know what you're looking for, so I can send you a more
-          comprehensive portfolio.
+          and let me know what you're looking for.
         </Centered>
       </Container>
     </>

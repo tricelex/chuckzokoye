@@ -34,7 +34,7 @@ exports[`renders correctly 1`] = `
   <h1
     class="c1"
   >
-    Jacob uses
+    Chuckz Uses
   </h1>
   <p>
     Welcome to my "Uses" page, that lists some of the hardware and software I use on a daily basis.
@@ -48,126 +48,48 @@ exports[`renders correctly 1`] = `
     <li>
       <strong>
         <a
-          href="https://www.amazon.co.uk/gp/product/B0821M3WQ5?ie=UTF8&tag=jakeherp-21&camp=1634&linkCode=xm2&creativeASIN=B0821M3WQ5"
+          href="#"
           rel="noopener noreferrer"
           target="_blank"
         >
-          Macbook Pro 16"
+          HP Pavillion 15.6"
         </a>
       </strong>
        
-      (2.4 GHz i9 CPU, 32 GB Ram, 2TB storage)
+      (2.4 GHz i5 CPU, * GB Ram, 512GB SSD storage)
     </li>
     <li>
       <strong>
         <a
-          href="https://www.amazon.co.uk/gp/product/B07BR9ZBZ4?ie=UTF8&tag=jakeherp-21&camp=1634&linkCode=xm2&creativeASIN=B07BR9ZBZ4"
+          href="#"
           rel="noopener noreferrer"
           target="_blank"
         >
-          Apple Magic Keyboard 2
+          Acer Desktop Monitor
         </a>
       </strong>
     </li>
     <li>
       <strong>
         <a
-          href="https://www.amazon.co.uk/gp/product/B07NJ2BCC2?ie=UTF8&tag=jakeherp-21&camp=1634&linkCode=xm2&creativeASIN=B07NJ2BCC2"
+          href="#"
           rel="noopener noreferrer"
           target="_blank"
         >
-          Apple Magic Trackpad 2
+          Apple Ipad2
         </a>
       </strong>
     </li>
     <li>
       <strong>
         <a
-          href="https://www.amazon.co.uk/gp/product/B0845MWTS1?ie=UTF8&tag=jakeherp-21&camp=1634&linkCode=xm2&creativeASIN=B0845MWTS1"
+          href="#"
           rel="noopener noreferrer"
           target="_blank"
         >
-          LG 34WN80C-B 34" ultra-wide monitor, connected via USB-C
+          Xiaomi Mi A3
         </a>
       </strong>
-       
-      4K monitor
-    </li>
-    <li>
-      <strong>
-        <a
-          href="https://www.amazon.co.uk/gp/product/B01F01DRW6?ie=UTF8&tag=jakeherp-21&camp=1634&linkCode=xm2&creativeASIN=B01F01DRW6"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Rain Design mStand
-        </a>
-      </strong>
-    </li>
-    <li>
-      <strong>
-        <a
-          href="https://www.amazon.co.uk/gp/product/B07XL8WJK8?ie=UTF8&tag=jakeherp-21&camp=1634&linkCode=xm2&creativeASIN=B07XL8WJK8"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          iPhone 11 Pro
-        </a>
-      </strong>
-       
-      (256 GB)
-    </li>
-    <li>
-      <strong>
-        <a
-          href="https://www.amazon.co.uk/gp/product/B07Q9MJKBV?ie=UTF8&tag=jakeherp-21&camp=1634&linkCode=xm2&creativeASIN=B07Q9MJKBV"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Bose 700
-        </a>
-      </strong>
-       
-      headphones
-    </li>
-    <li>
-      <strong>
-        <a
-          href="https://www.amazon.co.uk/gp/product/B07ZPML7NP?ie=UTF8&tag=jakeherp-21&camp=1634&linkCode=xm2&creativeASIN=B07ZPML7NP"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Apple AirPods Pro
-        </a>
-      </strong>
-       
-      for on the go
-    </li>
-    <li>
-      <strong>
-        <a
-          href="https://www.amazon.co.uk/gp/product/B07YSXZ7QD?ie=UTF8&tag=jakeherp-21&camp=1634&linkCode=xm2&creativeASIN=B07YSXZ7QD"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Nest Wifi
-        </a>
-      </strong>
-       
-      Mesh Network
-    </li>
-    <li>
-      <strong>
-        <a
-          href="https://store.google.com/product/google_home"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Google Home
-        </a>
-      </strong>
-       
-      to manage my smart home
     </li>
   </ul>
   <h2>
@@ -179,78 +101,26 @@ exports[`renders correctly 1`] = `
     <li>
       <strong>
         <a
-          href="https://code.visualstudio.com/"
+          href="https://www.jetbrains.com/pycharm"
           rel="noopener noreferrer"
           target="_blank"
         >
-          VS Code
+          PyCharm Professional
         </a>
       </strong>
        
-      with the
-       
-      <strong>
-        <a
-          href="https://marketplace.visualstudio.com/items?itemName=sdras.night-owl"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Night Owl
-        </a>
-      </strong>
-       
-      theme and
-       
-      <strong>
-        <a
-          href="https://www.typography.com/fonts/operator/styles/operatormono"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Operator Mono
-        </a>
-      </strong>
-       
-      font
     </li>
     <li>
       <strong>
         <a
-          href="https://www.iterm2.com/"
+          href="https://www.jetbrains.com/webstorm/"
           rel="noopener noreferrer"
           target="_blank"
         >
-          iTerm 2
+          Webstorm Professional
         </a>
       </strong>
        
-      Terminal
-    </li>
-    <li>
-      <strong>
-        <a
-          href="https://www.sourcetreeapp.com/"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Sourcetree
-        </a>
-      </strong>
-       
-      for version control beyond the command line
-    </li>
-    <li>
-      <strong>
-        <a
-          href="https://insomnia.rest/"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Insomnia
-        </a>
-      </strong>
-       
-      to test REST and GraphQL API's
     </li>
   </ul>
   <h2>
@@ -262,55 +132,11 @@ exports[`renders correctly 1`] = `
     <li>
       <strong>
         <a
-          href="https://www.sketch.com/"
+          href="#"
           rel="noopener noreferrer"
           target="_blank"
         >
-          Sketch
-        </a>
-      </strong>
-    </li>
-    <li>
-      <strong>
-        <a
-          href="https://www.figma.com/"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Figma
-        </a>
-      </strong>
-    </li>
-    <li>
-      <strong>
-        <a
-          href="https://affinity.serif.com/en-gb/photo/"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Affinity Photo
-        </a>
-      </strong>
-      ,
-       
-      <strong>
-        <a
-          href="https://affinity.serif.com/en-gb/designer/"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Affinity Designer
-        </a>
-      </strong>
-      ,
-       
-      <strong>
-        <a
-          href="https://affinity.serif.com/en-gb/publisher/"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Affinity Publisher
+          Adobe Photoshop CS6
         </a>
       </strong>
     </li>
@@ -324,32 +150,6 @@ exports[`renders correctly 1`] = `
     <li>
       <strong>
         <a
-          href="https://www.notion.so/?r=008f1f1395694a2594659c43f8d666d8"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Notion
-        </a>
-      </strong>
-       
-      for notes and to-do lists
-    </li>
-    <li>
-      <strong>
-        <a
-          href="https://www.atlassian.com/software/jira"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Jira
-        </a>
-      </strong>
-       
-      for project management
-    </li>
-    <li>
-      <strong>
-        <a
           href="https://slack.com/"
           rel="noopener noreferrer"
           target="_blank"
@@ -359,19 +159,6 @@ exports[`renders correctly 1`] = `
       </strong>
        
       for communication
-    </li>
-    <li>
-      <strong>
-        <a
-          href="https://gsuite.google.com/"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          G-Suite
-        </a>
-      </strong>
-       
-      for email, calendars and Google Drive
     </li>
   </ul>
   <h2>
@@ -392,45 +179,6 @@ exports[`renders correctly 1`] = `
       </strong>
        
       (Canary) for development
-    </li>
-    <li>
-      <strong>
-        <a
-          href="https://1password.com/"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          1Password
-        </a>
-      </strong>
-       
-      as my password manager
-    </li>
-    <li>
-      <strong>
-        <a
-          href="https://www.backblaze.com/"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Backblaze
-        </a>
-      </strong>
-       
-      for constant backups of my machines
-    </li>
-    <li>
-      <strong>
-        <a
-          href="https://magnet.crowdcafe.com/"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Magnet
-        </a>
-      </strong>
-       
-      to manage windows
     </li>
   </ul>
 </div>
