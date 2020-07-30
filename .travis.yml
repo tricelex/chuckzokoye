@@ -18,10 +18,10 @@ cache:
 #   on:
 #     branch: master
 before_script:
-  - "yarn global add gatsby"
-  - "yarn install --frozen-lockfile"
+  - 'yarn global add gatsby'
+  - 'yarn install --frozen-lockfile'
 script:
-  - "yarn test"
-  - "yarn test:e2e:ci"
+  - 'yarn test'
+  - 'yarn test:e2e:ci'
 # after_success:
 #   - "yarn deploy"
