@@ -4,10 +4,10 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `Jacob Herper`,
-    description: `Front-End Software Engineer with a focus on JavaScript and React.js. I have more than 10 years experience working in software engineering.`,
-    author: `Jacob Herper <jacob@herper.io>`,
-    siteUrl: `https://herper.io`,
+    title: `Chuckz Okoye`,
+    description: `'Back-End Software Engineer with a focus on Python and JavaScript. Many years experience working in software engineering.`,
+    author: `Chuckz Okoyer <chuckzokoye.com>`,
+    siteUrl: `https://chuckzokoye.com`,
   },
   plugins: [
     `gatsby-plugin-eslint`,
@@ -95,8 +95,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Jacob Herper Portfolio`,
-        short_name: `Herper.io`,
+        name: `Chuckz Okoye Portfolio`,
+        short_name: `chuckzokoye.com`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#e94e1b`,

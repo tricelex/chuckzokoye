@@ -11,33 +11,33 @@ const IndexPage = () => {
   const params = {
     particles: {
       number: {
-        value: 20,
+        value: 15,
         density: {
           enable: true,
           value_area: 800,
         },
       },
       color: {
-        value: '#303346',
+        value: '#2d0fc7', // 303346
       },
       shape: {
-        type: 'polygon',
+        type: 'star',
         stroke: {
           width: 0,
           color: 'rgba(255,255,255,0.1)',
         },
-        polygon: {
-          nb_sides: 6,
+        sides: {
+          nb_sides: 7,
         },
       },
       opacity: {
         value: 0.1,
         random: true,
         anim: {
-          enable: true,
+          enable: false,
           speed: 0.15984015984015984,
           opacity_min: 0.1,
-          sync: false,
+          sync: true,
         },
       },
       size: {
@@ -64,9 +64,9 @@ const IndexPage = () => {
         random: false,
         straight: false,
         out_mode: 'out',
-        bounce: false,
+        bounce: true,
         attract: {
-          enable: false,
+          enable: true,
           rotateX: 600,
           rotateY: 1200,
         },
@@ -120,12 +120,14 @@ const IndexPage = () => {
         title="Home"
         keywords={[
           `web developer`,
-          `front end engineer`,
+          `back end engineer`,
           `react developer`,
+          `python developer`,
+          `django developer`,
           `javascript engineer`,
-          `jacob herper`,
+          `chuckz okoye`,
           `developer`,
-          `london`,
+          `lagos`,
         ]}
       />
       <Background params={params} />
@@ -137,10 +139,9 @@ const IndexPage = () => {
               typeSpeed={80}
               backSpeed={20}
               strings={[
-                "I'm <span class='accent'>Jacob</span> Herper.",
-                "I'm a <span class='accent'>software engineer</span>.",
-                "I'm an <span class='accent'>entrepreneur</span>.",
-                "I'm a <span class='accent'>creative</span> mind.",
+                "I'm <span class='accent'>Chuckz Okoye.</span> ",
+                "I'm a <span class='accent'>Software Developer</span>.",
+                "I write <span class='accent'>Codes </span> and <span class='accent'>Solve Problems.",
               ]}
               smartBackspace
               backDelay={1000}
@@ -151,12 +152,12 @@ const IndexPage = () => {
             />
           </Headline>
           <Text>
-            As a senior front-end engineer with years of experience I create
-            amazing websites and web apps to make the internet a better place.{' '}
+            As a software developer with years of experience I create
+            specialised websites and web apps.{' '}
             <strong>
               <Link to="/contact/">Get in touch</Link>
             </strong>{' '}
-            to discuss how we can work together.
+            lets discuss work together.{' '}
           </Text>
         </Container>
       </Intro>

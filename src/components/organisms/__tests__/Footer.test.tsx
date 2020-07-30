@@ -86,9 +86,9 @@ test('renders correctly', () => {
       <div>
         © 
         2020
-         Jacob Herper
+         Chuckz Okoye
         <br />
-        Proudly built with
+        Built with
          
         <a
           href="https://gatsbyjs.org/"
@@ -97,7 +97,14 @@ test('renders correctly', () => {
         >
           Gatsby
         </a>
-        .
+        . Muse @
+        <a
+          href="https://herper.io"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Herper.io
+        </a>
       </div>
       <nav>
         <ul
@@ -107,7 +114,7 @@ test('renders correctly', () => {
             data-testid="github"
           >
             <a
-              href="https://github.com/jakeherp"
+              href="https://github.com/tricelex"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -118,7 +125,7 @@ test('renders correctly', () => {
             data-testid="linkedin"
           >
             <a
-              href="https://www.linkedin.com/in/jacobherper/"
+              href="https://www.linkedin.com/in/chuckzokoye"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -129,7 +136,7 @@ test('renders correctly', () => {
             data-testid="twitter"
           >
             <a
-              href="https://twitter.com/jakeherp"
+              href="https://twitter.com/chuckzokoye"
               rel="noopener noreferrer"
               target="_blank"
             >

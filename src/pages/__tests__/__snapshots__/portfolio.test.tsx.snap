@@ -165,10 +165,8 @@ exports[`renders correctly 1`] = `
   <p
     class="c4"
   >
-    This is a small selection of the hundreds of projects I worked on.
+    This is a small selection of projects I've worked on.
     <br />
-    Want to see more?
-     
     <a
       href="/contact/"
     >
@@ -177,7 +175,7 @@ exports[`renders correctly 1`] = `
       </strong>
     </a>
      
-    and let me know what you're looking for, so I can send you a more comprehensive portfolio.
+    and let me know what you're looking for.
   </p>
 </div>
 `;

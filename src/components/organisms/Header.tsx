@@ -6,10 +6,11 @@ import styled from 'styled-components';
 import { useDimensions } from 'Hooks/useDimensions';
 import { MenuToggle } from 'Atoms/MenuToggle';
 import { Navigation as Nav } from 'Molecules/Navigation';
-import Logo from 'Atoms/Logo';
+// import Logo from 'Atoms/Logo';
 
 // import NavigationContext from "Context/navigation.context"
 import ToggleMode from 'Atoms/ToggleMode';
+import Highlight from 'Atoms/Highlight';
 
 const sidebar = {
   open: (height = 1080) => ({
@@ -49,9 +50,12 @@ const Header = () => {
         <Nav toggle={() => toggleOpen()} />
         <MenuToggle toggle={() => toggleOpen()} />
       </Toggler>
-      <Link to="/" data-testid="logo">
-        <Logo />
-      </Link>
+      <MyHeader>
+        <Link to="/" data-testid="logo">
+          &#123; Chuckz <Highlight>Okoye</Highlight>&#125;
+        </Link>
+      </MyHeader>
+
       <ThemeToggle data-testid="themeToggle" />
     </Head>
   );
@@ -104,5 +108,7 @@ const ThemeToggle = styled(ToggleMode)`
   position: absolute;
   right: 0;
 `;
+
+const MyHeader = styled.h1``;
 
 export default Header;

@@ -1,12 +1,12 @@
 {
-  "name": "herper-io",
-  "description": "A redesign of my portfolio website.",
-  "displayName": "Herper.io",
-  "version": "2.1.15",
+  "name": "chuckzokoye",
+  "description": "My portfolio website.",
+  "displayName": "chuckzokoye",
+  "version": "0.1.0",
   "author": {
-    "name": "Jacob Herper",
-    "email": "jacob@herper.io",
-    "url": "https://herper.io/"
+    "name": "Chuckz Okoye",
+    "email": "chuckzokoye@gmail.com",
+    "url": "https://chuckzokoye.com/"
   },
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^14.1.1",
@@ -101,7 +101,7 @@
   "keywords": [
     "portfolio",
     "web developer",
-    "front-end",
+    "back-end",
     "software engineer"
   ],
   "license": "MIT",
@@ -121,15 +121,16 @@
     "test:lint:fix": "eslint --ignore-path .gitignore . --fix && prettier --ignore-path .gitignore --write \"**/*.+(tsx|js|json|md)\"",
     "test:lint": "jest --config jest/jest.lint.js",
     "test:watch": "jest --watch",
+    "test:updateSnapshot": "jest --updateSnapshot",
     "validate": "yarn format:check && yarn test:lint",
     "snyk-protect": "snyk protect"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jakeherp/portfolio"
+    "url": "https://github.com/tricelex/chuckzokoyeo"
   },
   "bugs": {
-    "url": "https://github.com/jakeherp/portfolio/issues"
+    "url": "https://github.com/tricelex/chuckzokoye/issues"
   },
   "snyk": true
 }

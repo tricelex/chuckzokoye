@@ -21,19 +21,22 @@ const Foot = styled.footer`
 const Footer = () => (
   <Foot>
     <div>
-      &copy; {new Date().getFullYear()} Jacob Herper
+      &copy; {new Date().getFullYear()} Chuckz Okoye
       <br />
-      Proudly built with{' '}
+      Built with{' '}
       <a href="https://gatsbyjs.org/" target="_blank" rel="noopener noreferrer">
         Gatsby
       </a>
-      .
+      . Muse @
+      <a href="https://herper.io" target="_blank" rel="noopener noreferrer">
+        Herper.io
+      </a>
     </div>
     <nav>
       <Menu data-testid="footer-menu">
         <li data-testid="github">
           <a
-            href="https://github.com/jakeherp"
+            href="https://github.com/tricelex"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -42,7 +45,7 @@ const Footer = () => (
         </li>
         <li data-testid="linkedin">
           <a
-            href="https://www.linkedin.com/in/jacobherper/"
+            href="https://www.linkedin.com/in/chuckzokoye"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -51,7 +54,7 @@ const Footer = () => (
         </li>
         <li data-testid="twitter">
           <a
-            href="https://twitter.com/jakeherp"
+            href="https://twitter.com/chuckzokoye"
             target="_blank"
             rel="noopener noreferrer"
           >
