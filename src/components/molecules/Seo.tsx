@@ -64,7 +64,7 @@ const SeoHelmet = ({ description, lang, meta, title, keywords }: IProps) => {
         },
         {
           name: `og:image`,
-          content: `https://res.cloudinary.com/tricelex/image/upload/c_scale,q_100,r_20,w_1698/v1588064752/chuckzokoye/chuckzokoye.jpg`,
+          content: `https://res.cloudinary.com/tricelex/image/upload/v1588064752/chuckzokoye/chuckzokoye.png`,
         },
         {
           property: `og:type`,
