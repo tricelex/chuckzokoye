@@ -369,7 +369,7 @@ it('renders correctly', () => {
             >
               Okoye
             </span>
-            }
+             }
           </a>
         </h1>
         <div

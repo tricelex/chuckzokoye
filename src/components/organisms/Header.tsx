@@ -52,7 +52,7 @@ const Header = () => {
       </Toggler>
       <MyHeader>
         <Link to="/" data-testid="logo">
-          &#123; Chuckz <Highlight>Okoye</Highlight>&#125;
+          &#123; Chuckz <Highlight>Okoye</Highlight> &#125;
         </Link>
       </MyHeader>
 
