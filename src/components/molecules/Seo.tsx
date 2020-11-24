@@ -11,33 +11,33 @@ interface IProps {
 }
 
 const SeoHelmet = ({ description, lang, meta, title, keywords }: IProps) => {
-  let titleTemplate = `Chuckz Okoye | Software Developer in Lagos${
+  let titleTemplate = `Chuckz Okoye | Software Developer${
     title !== 'Home' ? ' » %s' : ''
   }`;
 
   switch (title) {
     case 'Home':
-      titleTemplate = 'Chuckz Okoye - Software Developer in Lagos';
+      titleTemplate = 'Chuckz Okoye - Software Developer';
       break;
     case 'About':
-      titleTemplate = 'About Chuckz Okoye - A Software Developer in Lagos';
+      titleTemplate = 'About Chuckz Okoye - Software Developer';
       break;
     case 'Contact':
-      titleTemplate = 'Contact Chuckz Okoye - Software Developer in Lagos';
+      titleTemplate = 'Contact Chuckz Okoye - Software Developer';
       break;
     case 'Portfolio':
       titleTemplate =
         'Portfolio - Work samples of Chuckz Okoye (Software Developer)';
       break;
     default:
-      titleTemplate = `Chuckz Okoye | Software Developer in Lagos${
+      titleTemplate = `Chuckz Okoye | Software Developer${
         title !== 'Home' ? ' » %s' : ''
       }`;
   }
 
   const metaDescription =
     description ||
-    'Back-End Software Engineer with a focus on Python and JavaScript. Many years experience working in software engineering.';
+    'Software Developer with a focus on Python and JavaScript. Many years experience working in software engineering.';
   return (
     <Helmet
       htmlAttributes={{
@@ -64,7 +64,7 @@ const SeoHelmet = ({ description, lang, meta, title, keywords }: IProps) => {
         },
         {
           name: `og:image`,
-          content: `https://res.cloudinary.com/jacobherper/image/upload/c_fill,g_north,h_1080,w_1920/v1587315694/herper-io.png`,
+          content: `https://res.cloudinary.com/tricelex/image/upload/v1588064752/chuckzokoye/chuckzokoye.png`,
         },
         {
           property: `og:type`,
@@ -84,7 +84,7 @@ const SeoHelmet = ({ description, lang, meta, title, keywords }: IProps) => {
         },
         {
           name: `twitter:image`,
-          content: `https://res.cloudinary.com/jacobherper/image/upload/c_fill,g_north,h_1080,w_1920/v1587315694/herper-io.png`,
+          content: `https://res.cloudinary.com/tricelex/image/upload/c_scale,q_100,r_20,w_1698/v1588064752/chuckzokoye/chuckzokoye.jpg`,
         },
         {
           name: `twitter:title`,

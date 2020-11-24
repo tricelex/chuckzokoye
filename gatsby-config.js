@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `Chuckz Okoye`,
     description: `'Back-End Software Engineer with a focus on Python and JavaScript. Many years experience working in software engineering.`,
-    author: `Chuckz Okoyer <chuckzokoye.com>`,
+    author: `Chuckz Okoye <chuckzokoye.com>`,
     siteUrl: `https://chuckzokoye.com`,
   },
   plugins: [
@@ -102,6 +102,13 @@ module.exports = {
         theme_color: `#e94e1b`,
         display: `standalone`,
         icon: `src/assets/images/favicon.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+        trackingId: 'UA-175167969-1',
       },
     },
   ],
