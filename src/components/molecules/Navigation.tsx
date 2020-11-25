@@ -40,6 +40,11 @@ const itemIds = [
   },
   {
     id: 3,
+    title: 'Blog',
+    url: 'https://blog.chuckzokoye.com',
+  },
+  {
+    id: 4,
     title: 'Contact',
     url: '/contact',
   },

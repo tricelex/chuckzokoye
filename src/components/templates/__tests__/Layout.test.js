@@ -299,6 +299,25 @@ it('renders correctly', () => {
             </li>
             <li
               className="c5"
+              data-testid="blog"
+              style={
+                Object {
+                  "opacity": 0,
+                  "pointerEvents": "none",
+                  "transform": "translateY(50px) translateZ(0)",
+                }
+              }
+            >
+              <a
+                className="c6"
+                href="https://blog.chuckzokoye.com"
+                onClick={[Function]}
+              >
+                Blog
+              </a>
+            </li>
+            <li
+              className="c5"
               data-testid="contact"
               style={
                 Object {

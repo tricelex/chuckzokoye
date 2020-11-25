@@ -134,8 +134,8 @@ const About = () => {
               clicking the button below.
             </Text>
             <Button
-            // href="/docs/cv-jacob_herper-2020.pdf"
-            // download="jacob_herper-cv.pdf"
+              href="/docs/Okoye_Emmanuel_CV.pdf"
+              download="Okoye_Emmanuel_CV.pdf"
             >
               Download CV
             </Button>

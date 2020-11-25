@@ -79,8 +79,10 @@ module.exports = {
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: process.env.CONTENTFUL_SPACE_ID,
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+        // spaceId: process.env.CONTENTFUL_SPACE_ID,
+        // accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+        spaceId: 'qov2gbwsu82b',
+        accessToken: 'aWxbhx8qx3zEvr37b12_HHAwcyiahqYSOw-TH9WxGzg',
       },
     },
     {

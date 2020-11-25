@@ -74,6 +74,18 @@ test('renders correctly', () => {
       </li>
       <li
         class="c1"
+        data-testid="blog"
+        style="opacity: 0; pointer-events: none; transform: translateY(50px) translateZ(0);"
+      >
+        <a
+          class=""
+          href="https://blog.chuckzokoye.com"
+        >
+          Blog
+        </a>
+      </li>
+      <li
+        class="c1"
         data-testid="contact"
         style="opacity: 0; pointer-events: none; transform: translateY(50px) translateZ(0);"
       >
