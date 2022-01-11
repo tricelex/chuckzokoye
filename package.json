@@ -42,7 +42,7 @@
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0",
     "react-hook-form": "^6.0.0",
-    "react-particles-js": "^3.2.1",
+    "react-particles-js": "^3.6.0",
     "react-typed": "^1.2.0",
     "snyk": "^1.369.2",
     "styled-components": "^5.1.1",
